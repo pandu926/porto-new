@@ -33,9 +33,9 @@ const AutoplaySlider = () => {
   };
 
   return (
-    <div className="mx-8 md:mx-16 lg:mx-32">
-      <h2 className="text-center text-2xl font-bold mb-8">
-        React Slick Autoplay Slider Example
+    <div className="mx-8 md:mx-16 lg:mx-32 text-white mt-28">
+      <h2 className="text-center text-xl md:text-3xl font-bold mb-8 pb-20 text-teal-600">
+        Projects
       </h2>
       <Slider {...settings}>
         {[...Array(5)].map((_, index) => (
