@@ -33,10 +33,10 @@ const AutoplaySlider = () => {
   };
 
   return (
-    <div className="mx-8 md:mx-16 lg:mx-32 text-white mt-28">
-      <h2 className="text-center text-xl md:text-3xl font-bold mb-8 pb-20 text-teal-600">
+    <div className="mx-8 md:mx-16 lg:mx-32 text-white mt-28 relative z-10 mb-10">
+      <div className="text-center text-2xl md:text-3xl font-bold text-teal-500 pb-20">
         Projects
-      </h2>
+      </div>
       <Slider {...settings}>
         {[...Array(5)].map((_, index) => (
           <div

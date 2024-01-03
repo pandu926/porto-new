@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function services() {
   return (
-    <div className="mx-auto max-w-6xl pt-20 px-4 md:px-8">
-      <h1 className="text-center pb-20 text-4xl text-teal-600 font-bold">
+    <div className="mx-auto max-w-6xl pt-20 px-4 md:px-8 relative z-10">
+      <h1 className="text-center pb-20 text-2xl md:text-3xl font-bold text-teal-400">
         Services
       </h1>
       <div className=" flex flex-wrap justify-center items-center capitalize ">
