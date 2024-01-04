@@ -2,11 +2,10 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import "../css/header.css";
 
 export default function ParticleHeaderBg() {
   const particlesInit = async (main) => {
-    console.log(main);
-
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
@@ -142,134 +141,44 @@ export default function ParticleHeaderBg() {
               },
               image: [
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+                  src: "./images/fronted/1.svg",
                   width: 20,
                   height: 20,
                 },
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+                  src: "./images/fronted/2.svg",
                   width: 20,
                   height: 20,
                 },
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
+                  src: "./images/fronted/3.svg",
                   width: 20,
                   height: 20,
                 },
                 {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+                  src: "./images/fronted/4.svg",
                   width: 20,
                   height: 20,
                 },
               ],
               images: [
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+                  src: "./images/fronted/1.svg",
                   width: 20,
                   height: 20,
                 },
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+                  src: "./images/fronted/2.svg",
                   width: 20,
                   height: 20,
                 },
                 {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
+                  src: "./images/fronted/3.svg",
                   width: 20,
                   height: 20,
                 },
                 {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+                  src: "./images/fronted/4.svg",
                   width: 20,
                   height: 20,
                 },

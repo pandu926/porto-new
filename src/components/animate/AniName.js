@@ -7,7 +7,7 @@ import Scrool from "./Scrool";
 export default function AniName() {
   useEffect(() => {
     anime
-      .timeline({ loop: true })
+      .timeline({ loop: false })
       .add({
         targets: ".ml15 .word",
         scale: [14, 1],
@@ -26,9 +26,9 @@ export default function AniName() {
   }, []);
 
   return (
-    <div className="ml15">
+    <div className="ml15 mx-32">
       <div className="text-white capitalize text-center">
-        <div className="text-xl md:text-3xl font-bold md:font-extrabold mt-24">
+        <div className="text-xl   font-bold md:font-extrabold mt-24">
           <p className="mt-5 word">hi ,</p>
           <p className="word mt-5 text-teal-400 text-2xl md:text-4xl">
             i am ahmad pandu subekti

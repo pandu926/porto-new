@@ -1,26 +1,28 @@
 {
-  "name": "porto",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "animejs": "^3.2.2",
-    "next": "14.0.4",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-slick": "^0.29.0",
-    "react-tsparticles": "2.9.0",
-    "slick-carousel": "^1.8.1",
-    "tsparticles": "2.9.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0"
-  }
+    "name": "porto",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "clean": "rimraf .next",
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "animejs": "^3.2.2",
+        "next": "14.0.4",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-slick": "^0.29.0",
+        "react-tsparticles": "2.9.0",
+        "slick-carousel": "^1.8.1",
+        "tsparticles": "2.9.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.0.1",
+        "postcss": "^8",
+        "rimraf": "^5.0.5",
+        "tailwindcss": "^3.3.0"
+    }
 }
