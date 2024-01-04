@@ -50,7 +50,7 @@ export default function Content() {
                     <img
                       src={`./images/fronted/${index + 1}.svg`}
                       loading="lazy"
-                      className="w-16 h-16 md:h-20 md:w-20"
+                      className="w-16 h-16 md:h-20 md:w-20 filter grayscale hover:greyscale-0 hover:filter-none"
                     />
                   </div>
                 ))}

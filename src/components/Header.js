@@ -1,11 +1,14 @@
 import Link from "next/link";
+import AniName from "./animate/AniName";
 
 export default function Header() {
   return (
     <div className="text-white relative z-10">
       <div className="bg-gray-900 text-white relative z-10">
-        <div className="flex mx-4 md:mx-8 lg:mx-32 font-bold pt-7 pb-7">
-          <div className="w-1/4 text-xl">PANDUSUBEKTI</div>
+        <div className="flex mx-4 md:mx-8 lg:mx-32 font-bold pt-4 pb-4  md:pt-7 md:pb-7">
+          <div className="w-full  md:w-1/4  text-base md:text-xl">
+            PANDUSUBEKTI
+          </div>
           <div className="hidden md:flex w-3/6 justify-between capitalize font-bold">
             <Link href="/" passHref>
               <p className="nav-link">Home</p>
@@ -23,17 +26,10 @@ export default function Header() {
               <p className="nav-link">Contact Me</p>
             </Link>
           </div>
+          <div className="block md:hidden w-1/4">menu</div>
         </div>
       </div>
-      <div className="text-white capitalize text-center">
-        <div className="text-xl md:text-3xl font-bold md:font-extrabold mt-24">
-          <p className="mt-5">hi ,</p>
-          <p className="mt-5 text-teal-400 text-2xl md:text-4xl">
-            i am ahmad pandu subekti
-          </p>
-          <p className="mt-5 "> fullstack web developer</p>
-        </div>
-      </div>
+      <AniName />
     </div>
   );
 }
