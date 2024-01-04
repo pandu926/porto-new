@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="relative z-10">
       <Header />
-      <div className="w-full z-0 absolute top-0 left-0">
+      <div className="w-full h-screen z-0 absolute top-0 left-0">
         <Design />
       </div>
       <Content />

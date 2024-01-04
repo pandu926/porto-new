@@ -6,6 +6,8 @@ import "../css/header.css";
 
 export default function ParticleHeaderBg() {
   const particlesInit = async (main) => {
+    console.log(main);
+
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
@@ -29,7 +31,7 @@ export default function ParticleHeaderBg() {
           color: "#000",
         },
         fullScreen: {
-          enable: true,
+          enable: false,
         },
         interactivity: {
           modes: {
@@ -103,7 +105,7 @@ export default function ParticleHeaderBg() {
             },
             animation: {
               enable: true,
-              speed: 2,
+              speed: 1,
               minimumValue: 0.2,
             },
           },
@@ -113,7 +115,7 @@ export default function ParticleHeaderBg() {
             },
             animation: {
               enable: true,
-              speed: 10,
+              speed: 5,
             },
             direction: "random",
           },
@@ -144,21 +146,25 @@ export default function ParticleHeaderBg() {
                   src: "./images/fronted/1.svg",
                   width: 20,
                   height: 20,
+                  lazy: true,
                 },
                 {
                   src: "./images/fronted/2.svg",
                   width: 20,
                   height: 20,
+                  lazy: true,
                 },
                 {
                   src: "./images/fronted/3.svg",
                   width: 20,
                   height: 20,
+                  lazy: true,
                 },
                 {
                   src: "./images/fronted/4.svg",
                   width: 20,
                   height: 20,
+                  lazy: true,
                 },
               ],
               images: [
@@ -166,21 +172,25 @@ export default function ParticleHeaderBg() {
                   src: "./images/fronted/1.svg",
                   width: 20,
                   height: 20,
+                  lazy: true,
                 },
                 {
                   src: "./images/fronted/2.svg",
                   width: 20,
                   height: 20,
+                  lazy: true,
                 },
                 {
                   src: "./images/fronted/3.svg",
                   width: 20,
                   height: 20,
+                  lazy: true,
                 },
                 {
                   src: "./images/fronted/4.svg",
                   width: 20,
                   height: 20,
+                  lazy: true,
                 },
               ],
             },
