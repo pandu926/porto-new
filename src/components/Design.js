@@ -166,6 +166,48 @@ export default function ParticleHeaderBg() {
                   height: 20,
                   lazy: true,
                 },
+                {
+                  src: "./images/fronted/5.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/fronted/6.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/fronted/7.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/backend/1.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/backend/2.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/backend/3.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/backend/4.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
               ],
               images: [
                 {
@@ -188,6 +230,48 @@ export default function ParticleHeaderBg() {
                 },
                 {
                   src: "./images/fronted/4.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/fronted/5.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/fronted/6.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/fronted/7.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/backend/1.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/backend/2.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/backend/3.svg",
+                  width: 20,
+                  height: 20,
+                  lazy: true,
+                },
+                {
+                  src: "./images/backend/4.svg",
                   width: 20,
                   height: 20,
                   lazy: true,

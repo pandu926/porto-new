@@ -45,7 +45,7 @@ export default function Content() {
             <div>
               <h1 className="text-xl font-semibold pb-7 pt-12">Front-End</h1>
               <div className="flex flex-wrap">
-                {Array.from({ length: 4 }, (_, index) => (
+                {Array.from({ length: 7 }, (_, index) => (
                   <div key={index} className="px-2 pt-2 pb-2 w-1/4 md:w-1/3">
                     <img
                       src={`./images/fronted/${index + 1}.svg`}
@@ -59,12 +59,12 @@ export default function Content() {
             <div className="mt-4">
               <h1 className="text-xl font-semibold pb-7 pt-12">Back-End</h1>
               <div className="flex flex-wrap">
-                {Array.from({ length: 4 }, (_, index) => (
+                {Array.from({ length: 7 }, (_, index) => (
                   <div key={index} className="px-2 pt-2 pb-2 w-1/4 md:w-1/3">
                     <img
-                      src={`./1.svg`}
+                      src={`./images/backend/${index + 1}.svg`}
                       loading="lazy"
-                      className="w-16 h-16 md:h-20 md:w-20"
+                      className="w-16 h-16 md:h-20 md:w-20 filter grayscale hover:greyscale-0 hover:filter-none"
                     />
                   </div>
                 ))}
@@ -73,12 +73,12 @@ export default function Content() {
             <div className="mt-4">
               <h1 className="text-xl font-semibold pb-7 pt-12">Tools</h1>
               <div className="flex flex-wrap ">
-                {Array.from({ length: 5 }, (_, index) => (
+                {Array.from({ length: 2 }, (_, index) => (
                   <div key={index} className="px-2 pt-2 pb-2 w-1/4 md:w-1/3">
                     <img
-                      src={`./1.svg`}
+                      src={`./images/tools/${index + 1}.svg`}
                       loading="lazy"
-                      className="w-16 h-16 md:h-20 md:w-20"
+                      className="w-16 h-16 md:h-20 md:w-20 filter grayscale hover:greyscale-0 hover:filter-none"
                     />
                   </div>
                 ))}
