@@ -11,13 +11,13 @@ export default function services() {
           <div className="hover:border-red-500 hover:border-2 hover:bg-white text-white hover:text-black border border-gray-300 p-4 rounded-md text-center bg-gray-900 relative">
             <div className="mx-auto ">
               <Image
-                src={`./1.svg`}
+                src={`./images/services/1.svg`}
                 width={40}
                 height={40}
                 className="mx-auto"
               />
             </div>
-            <h2 className="text-xl font-semibold mt-2">Card </h2>
+            <h2 className="text-xl font-semibold mt-2">Web Development </h2>
             <p>
               Creation of well-structured web pages, good responsive design,
               attractive color palette, with interactions that give the user
@@ -31,17 +31,37 @@ export default function services() {
           <div className="hover:border-red-500 hover:border-2 hover:bg-white text-white hover:text-black border border-gray-300 p-4 rounded-md text-center bg-gray-900 relative">
             <div className="mx-auto">
               <Image
-                src={`./1.svg`}
+                src={`./images/services/2.svg`}
                 width={40}
                 height={40}
                 className="mx-auto"
               />
             </div>
-            <h2 className="text-xl font-semibold mt-2">Card </h2>
+            <h2 className="text-xl font-semibold mt-2">Web Maintenance </h2>
             <p>
-              Creation of well-structured web pages, good responsive design,
-              attractive color palette, with interactions that give the user
-              satisfaction when browsing the website.
+              Complete maintenance of web pages to detect and solve errors,
+              update content whether text, photos, web design elements, add new
+              functions, etc.
+            </p>
+            <div className="absolute left-0 right-0 bottom-0 h-2 bg-teal-400 scale-x-0 origin-bottom transform transition-transform duration-300 group-hover:scale-x-100"></div>
+          </div>
+          {/* Progress Bar */}
+        </div>
+        <div className="relative group w-full md:w-1/2 lg:w-2/5 p-4 transition-transform duration-300 transform hover:scale-105">
+          <div className="hover:border-red-500 hover:border-2 hover:bg-white text-white hover:text-black border border-gray-300 p-4 rounded-md text-center bg-gray-900 relative">
+            <div className="mx-auto">
+              <Image
+                src={`./images/services/3.svg`}
+                width={40}
+                height={40}
+                className="mx-auto"
+              />
+            </div>
+            <h2 className="text-xl font-semibold mt-2">Web Optimization</h2>
+            <p>
+              Complete optimization of your web page, improving loading speed,
+              using optimized images, a good URL, to give a better experience to
+              users who visit the website
             </p>
             <div className="absolute left-0 right-0 bottom-0 h-2 bg-teal-400 scale-x-0 origin-bottom transform transition-transform duration-300 group-hover:scale-x-100"></div>
           </div>

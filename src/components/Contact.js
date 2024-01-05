@@ -13,7 +13,11 @@ export default function Contact() {
             key={index}
             className="mb-4 sm:mb-0 px-2 pt-2 pb-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4"
           >
-            <img src={`./1.svg`} className=" w-8 h-8" loading="lazy" />
+            <img
+              src={`./images/contact/${index + 1}.svg`}
+              className=" w-8 h-8"
+              loading="lazy filter grayscale hover:greyscale-0 hover:filter-none"
+            />
           </div>
         ))}
       </div>
