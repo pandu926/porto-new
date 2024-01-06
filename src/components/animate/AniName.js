@@ -27,7 +27,7 @@ export default function AniName() {
 
   return (
     <div className="ml15 ">
-      <div className="text-white capitalize text-center">
+      <div className="text-white capitalize text-center overflow-hidden">
         <div className="text-xl md:text-3xl  font-bold md:font-extrabold mt-24">
           <p className="mt-5 word">hi ,</p>
           <p className="word mt-5 text-teal-400 text-2xl md:text-4xl">
